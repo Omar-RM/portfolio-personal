@@ -39,7 +39,7 @@ export const Projects = () => {
           <Col>
             <h2>Projets</h2>
             <p>Loremdasd dsfsdfsdfdsf sdfsdfsdfsd dsfsdfsdfsdf sdfsdfsdfsdf </p>
-            <Tab.Container id="projects-tabs" defaultActivekey="first">
+            <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="mb-5 nav-pills">
                 <Nav.Item>
                   <Nav.Link eventKey="first">Tab One</Nav.Link>
