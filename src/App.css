@@ -86,7 +86,7 @@ nav.navbar {
   width: 100%;
   top: 0;
   z-index: 9999;
-  background:rgba(255, 255, 255, 0.2);
+  background:rgba(0, 0, 0, 0.907);
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
@@ -95,6 +95,10 @@ nav.navbar.scrolled {
 }
 nav.navbar a.navbar-brand {
     width: 12%;
+}
+nav.navbar .logo-text{
+  color: white;
+  font-size: 45px;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -234,8 +238,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  padding: 120px 0 100px 0;
+  background-image: url('./assets/img/bg2.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -368,7 +372,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -405,11 +409,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
-.nav-link#projects-tabs-tab-second {
+/* .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-.nav-link#projects-tabs-tab-third {
+} */
+.nav-link#projects-tabs-tab-second {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }

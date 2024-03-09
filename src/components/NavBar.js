@@ -1,10 +1,13 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import React from "react";
-import { Center, Icon } from "@chakra-ui/react";
+
 import { FaGithub } from "react-icons/fa";
-import logo from "../assets/img/logo.svg";
+import { MdOutlineMailOutline } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
+
+import { Center, Icon } from "@chakra-ui/react";
+import logo from "../assets/img/logo.svg";
 import { color } from "framer-motion";
 
 export const NavBar = () => {
@@ -28,7 +31,9 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
+          <span className="logo-text" styles={"color:white"}>
+            OR
+          </span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -42,7 +47,7 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("home")}
             >
-              Home
+              HOME
             </Nav.Link>
             <Nav.Link
               href="#skills"
@@ -51,7 +56,7 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("skills")}
             >
-              skills
+              SKILLS
             </Nav.Link>
             <Nav.Link
               href="#projects"
@@ -60,12 +65,15 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
-              projects
+              PROJECTS
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#" _hover={{ background: "red" }}>
+              <a
+                href="https://github.com/Omar-RM"
+                _hover={{ background: "red" }}
+              >
                 <Icon
                   w={25}
                   h={25}
@@ -75,7 +83,7 @@ export const NavBar = () => {
                   <FaGithub size={25} color="white" />
                 </Icon>
               </a>
-              <a href="#">
+              <a href="https://linkedin.com/in/omar-rico">
                 <Icon
                   w={25}
                   h={25}
@@ -85,14 +93,14 @@ export const NavBar = () => {
                   <CiLinkedin size={25} color="white"></CiLinkedin>
                 </Icon>
               </a>
-              <a href="">
+              <a href="mailto:omarm.rico.98@gmail.com">
                 <Icon
                   w={25}
                   h={25}
                   justifyContent={"center"}
                   justifyItems={"center"}
                 >
-                  <CiLinkedin size={25} color="white"></CiLinkedin>
+                  <MdOutlineMailOutline size={25} color="white" />
                 </Icon>
               </a>
             </div>

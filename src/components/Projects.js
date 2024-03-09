@@ -38,17 +38,17 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>Projets</h2>
-            <p>Loremdasd dsfsdfsdfdsf sdfsdfsdfsd dsfsdfsdfsdf sdfsdfsdfsdf </p>
+            <p>
+              Showcases projects that identify a specific user need and develop
+              a tool that can be used regularly to solve that problem.
+            </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="mb-5 nav-pills">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab One</Nav.Link>
+                  <Nav.Link eventKey="first">Websites</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab two</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="third">Tab three</Nav.Link>
+                  <Nav.Link eventKey="second">Software Applications</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
@@ -59,8 +59,7 @@ export const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                {/* <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane> */}
               </Tab.Content>
             </Tab.Container>
           </Col>

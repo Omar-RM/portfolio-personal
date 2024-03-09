@@ -13,23 +13,21 @@ export const Banner = () => {
             <h1>
               <span className="wrap">Hi there, My name is Omar Rico</span>
             </h1>
-            <h2>
-              {" "}
+            <h2 className="align-text-justify">
               I am a self-taught Developer with 2 years of experience with a
               passion for programming and a desire to contribute to meaningful
               projects.
             </h2>
             <p className="mt-3">
-              I have proficeint experience in JavaScript, Java, PHP, REACT, SQL,
-              R and MySQL
+              Proficient in JavaScript, Java, PHP, REACT, SQL, R and MySQL
             </p>
-            <button
+            {/* <button
               style={{ background: "none", border: "none" }}
               onClick={() => console.log("connect")}
             >
               Let's connect
               <ArrowRightCircle size={25} />
-            </button>
+            </button> */}
           </Col>
           <Col xs={12} md={6} xl={6}>
             <img src={headderImg} alt="Headder Img" />

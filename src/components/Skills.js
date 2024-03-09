@@ -6,6 +6,10 @@ import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import { Col, Container, Row } from "react-bootstrap";
 
+import { BsBootstrap } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
+import { Icon } from "@chakra-ui/react";
+
 export const Skills = () => {
   const responsive = {
     superlargeDesktop: {
@@ -28,44 +32,46 @@ export const Skills = () => {
   return (
     <section className="skills" id="skills">
       <Container>
-        <Row>
-          <Col>
-            <div className="skill-bx">
-              <h2>Skills</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. <br></br>
-                Lorem Ipsum has been the industry
-              </p>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                className="skill-slider"
-              >
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Brand Entity</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Brand Entity</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Brand Entity</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Brand Entity</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Brand Entity</h5>
-                </div>
-              </Carousel>
+        <div className="skill-bx">
+          <Row>
+            <h2>Skills</h2>
+            <p>
+              Technologies learnt throughout my journey and used in each of my
+              projects.
+            </p>
+          </Row>
+          <Row>
+            <Carousel
+              responsive={responsive}
+              infinite={true}
+              className="skill-slider"
+            >
+              <div className="item">
+                <img src={meter1} alt="Image" />
+                <h5>JavaScript</h5>
+              </div>
+              <div className="item">
+                <img src={meter2} alt="Image" />
+                <h5>Java</h5>
+              </div>
+
+              <div className="item">
+                <img src={meter2} alt="Image" />
+                <h5 className="">Brand Entity</h5>
+              </div>
+            </Carousel>
+          </Row>
+          <Row className="align-items-center">
+            <div className="item">
+              <FaReact size={120} className="m-4" />
+              <h5>React</h5>
             </div>
-          </Col>
-        </Row>
+            <div className="item align-items-center">
+              <BsBootstrap size={120} className="m-4" />
+              <h5>Bootstrap</h5>
+            </div>
+          </Row>
+        </div>
       </Container>
       <img className="background-image-left" src={colorSharp} />
     </section>
