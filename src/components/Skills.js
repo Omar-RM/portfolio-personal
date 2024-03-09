@@ -15,6 +15,8 @@ import { SiMysql } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 import { RiFileExcel2Line } from "react-icons/ri";
 import { SiTableau } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { TbBrandVscode } from "react-icons/tb";
 
 import { Icon } from "@chakra-ui/react";
 
@@ -43,11 +45,11 @@ export const Skills = () => {
       <Container>
         <div className="skill-bx">
           <Row>
-            <h2>Skills</h2>
-            <p>
+            <h1>SKILLS</h1>
+            <h3>
               Technologies learnt throughout my journey and used in each of my
               projects.
-            </p>
+            </h3>
           </Row>
 
           <div className="d-flex flex-row p-2">
@@ -87,17 +89,16 @@ export const Skills = () => {
               <SiTableau size={iconSize} className="m-4 " />
               <h5>Tableau</h5>
             </div>
-          </div>
-          <div className="d-flex flex-row p-2">
             <div>
-              <SiTableau size={iconSize} className="m-4 " />
+              <FaGithub size={iconSize} className="m-4 " />
               <h5>Github</h5>
             </div>
             <div>
-              <SiTableau size={iconSize} className="m-4 " />
+              <TbBrandVscode size={iconSize} className="m-4 " />
               <h5>VSCode</h5>
             </div>
           </div>
+          <div className="d-flex flex-row p-2"></div>
           {/* <div className="d-flex flex-row p-2"></div> */}
         </div>
       </Container>

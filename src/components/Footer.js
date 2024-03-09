@@ -9,24 +9,8 @@ export const Footer = () => {
     <footer className="footer">
       <Container className="align-item-center p-5">
         <Row>
-          <Col sm={6}>
-            <img src={logo} alt="logo" />
-          </Col>
-          <Col sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-              <a href="">
-                <FaGithub />
-              </a>
-              <a href="">
-                <Icon>
-                  <CiLinkedin />
-                </Icon>
-              </a>
-              <a href="">
-                <FaGithub />
-              </a>
-            </div>
-            <p>CopyRight 2022. All Right Reserved</p>
+          <Col>
+            <h4> Website Created By Omar Rico &copy; 2024</h4>
           </Col>
         </Row>
       </Container>

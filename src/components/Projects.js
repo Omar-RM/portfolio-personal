@@ -28,11 +28,11 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2>Projets</h2>
-            <p>
+            <h2 className="mb-4">PROJECTS</h2>
+            <h4 className="mb-4">
               Showcases projects that identify a specific user need and develop
               a tool that can be used regularly to solve that problem.
-            </p>
+            </h4>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="mb-5 nav-pills">
                 <Nav.Item>
