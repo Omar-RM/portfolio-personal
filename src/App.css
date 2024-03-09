@@ -31,7 +31,7 @@ body{
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background: #121212 !important;
+  background: #000000 !important;
   color : #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -310,11 +310,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
-  border-radius: 64px;
+  background: #000000;
+  
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  
 }
 .skill h2 {
 	font-size: 45px;
@@ -368,6 +368,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
+  border: solid rgb(255 255 255 / 10%) 2px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
@@ -393,7 +394,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #1b002c -5.91%, #470180 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -425,7 +426,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg,  #1b002c -5.91%, #470180 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;

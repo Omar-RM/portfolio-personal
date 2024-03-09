@@ -47,8 +47,18 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col md={6}>
-            <img src={contactImg} alt="Contact Us" />
+          <Col md={6} className="mr-5">
+            <h1>
+              I enjoy challenging myself, being part of open-source projects,
+              and contributing to other developers.
+            </h1>
+
+            <h3 className="text-left">
+              <br></br>Get in touch
+              <br></br>Email: omarm.rico.98@gmail.com
+              <br></br>Phone: (+353) 0830518728
+              <br></br>Address: Malahide, Dublin
+            </h3>
           </Col>
           <Col md={6}>
             <h2>Get In Touch</h2>

@@ -1,35 +1,26 @@
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
+import jackGallery from "../assets/img/sony-gallery.png";
 import projImg3 from "../assets/img/project-img2.png";
-import projImg2 from "../assets/img/project-img3.png";
+import gameHub from "../assets/img/game-hub.png";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & DEvelopment",
-      imgUrl: projImg1,
+      title: "Game Hub",
+      description:
+        "A web application which displays some of the most popular video games, with the option to sort the games based on rating, genre, platform and relevance. ",
+      imgUrl: gameHub,
+      buttonlLink:
+        "https://vercel.com/omar-ricos-projects/game-platform-project",
     },
     {
-      title: "Business Startup",
-      description: "Design & DEvelopment",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & DEvelopment",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & DEvelopment",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & DEvelopment",
-      imgUrl: projImg2,
+      title: "Jack Sony Pictures",
+      description:
+        "A portfolio gallery for a small business to show their work and contact details, the user has full access to the layout of the gallery, and can personalize at any minute.",
+      imgUrl: jackGallery,
+      buttonlLink:
+        "https://tazasrotas.000webhostapp.com/jack-sony-pictures/gallery.html",
     },
   ];
   return (

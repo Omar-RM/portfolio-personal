@@ -8,6 +8,14 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import { BsBootstrap } from "react-icons/bs";
 import { FaReact } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
+import { RiFileExcel2Line } from "react-icons/ri";
+import { SiTableau } from "react-icons/si";
+
 import { Icon } from "@chakra-ui/react";
 
 export const Skills = () => {
@@ -29,6 +37,7 @@ export const Skills = () => {
       items: 1,
     },
   };
+  const iconSize = 50;
   return (
     <section className="skills" id="skills">
       <Container>
@@ -40,37 +49,56 @@ export const Skills = () => {
               projects.
             </p>
           </Row>
-          <Row>
-            <Carousel
-              responsive={responsive}
-              infinite={true}
-              className="skill-slider"
-            >
-              <div className="item">
-                <img src={meter1} alt="Image" />
-                <h5>JavaScript</h5>
-              </div>
-              <div className="item">
-                <img src={meter2} alt="Image" />
-                <h5>Java</h5>
-              </div>
 
-              <div className="item">
-                <img src={meter2} alt="Image" />
-                <h5 className="">Brand Entity</h5>
-              </div>
-            </Carousel>
-          </Row>
-          <Row className="align-items-center">
+          <div className="d-flex flex-row p-2">
             <div className="item">
-              <FaReact size={120} className="m-4" />
+              <SiJavascript size={iconSize} className="m-4" />
+              <h5>JavaScript</h5>
+            </div>
+            <div>
+              <FaReact size={iconSize} className="m-4" />
               <h5>React</h5>
             </div>
-            <div className="item align-items-center">
-              <BsBootstrap size={120} className="m-4" />
+            <div>
+              <BsBootstrap size={iconSize} className="m-4 " />
               <h5>Bootstrap</h5>
             </div>
-          </Row>
+            <div className="item">
+              <FaJava size={iconSize} className="m-4" />
+              <h5>Java</h5>
+            </div>
+            <div className="item">
+              <FaPhp size={iconSize} className="m-4" />
+              <h5>PHP</h5>
+            </div>
+            <div className="item">
+              <SiMysql size={iconSize} className="m-4" />
+              <h5>MySQL</h5>
+            </div>
+            <div className="item">
+              <BsFiletypeSql size={iconSize} className="m-4" />
+              <h5>SQL</h5>
+            </div>
+            <div>
+              <RiFileExcel2Line size={iconSize} className="m-4 " />
+              <h5>Excel</h5>
+            </div>
+            <div>
+              <SiTableau size={iconSize} className="m-4 " />
+              <h5>Tableau</h5>
+            </div>
+          </div>
+          <div className="d-flex flex-row p-2">
+            <div>
+              <SiTableau size={iconSize} className="m-4 " />
+              <h5>Github</h5>
+            </div>
+            <div>
+              <SiTableau size={iconSize} className="m-4 " />
+              <h5>VSCode</h5>
+            </div>
+          </div>
+          {/* <div className="d-flex flex-row p-2"></div> */}
         </div>
       </Container>
       <img className="background-image-left" src={colorSharp} />
