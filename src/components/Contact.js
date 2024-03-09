@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import { BsArrowRightCircleFill } from "react-icons/bs";
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -47,17 +47,15 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col md={6} className="mr-5">
+          <Col md={6} className="mr-5 text-left">
             <h1>
               I enjoy challenging myself, being part of open-source projects,
               and contributing to other developers.
             </h1>
 
             <h3 className="text-left">
-              <br></br>Get in touch
-              <br></br>Email: omarm.rico.98@gmail.com
-              <br></br>Phone: (+353) 0830518728
-              <br></br>Address: Malahide, Dublin
+              <br></br>Send me a message to get in touch{" "}
+              <BsArrowRightCircleFill />
             </h3>
           </Col>
           <Col md={6}>

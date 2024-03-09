@@ -68,7 +68,7 @@ export const NavBar = () => {
               PROJECTS
             </Nav.Link>
           </Nav>
-          <span className="navbar-text">
+          <span className="navbar-text mr-5">
             <div className="social-icon">
               <a
                 href="https://github.com/Omar-RM"
@@ -105,8 +105,10 @@ export const NavBar = () => {
               </a>
             </div>
           </span>
-          <button className="vvd" onClick={() => console.log("connect")}>
-            <span>Let's connect</span>
+          <button className="vvd">
+            <a href="#connect" className="text-decoration-none text-muted">
+              Let's connect
+            </a>
           </button>
         </Navbar.Collapse>
       </Container>

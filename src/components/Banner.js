@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import headderImg from "../assets/img/header-img.svg";
 
 export const Banner = () => {
@@ -13,7 +12,7 @@ export const Banner = () => {
             <h1>
               <span className="wrap">Hi there, My name is Omar Rico</span>
             </h1>
-            <h2 className="align-text-justify">
+            <h2>
               I am a self-taught Developer with 2 years of experience with a
               passion for programming and a desire to contribute to meaningful
               projects.
@@ -30,7 +29,9 @@ export const Banner = () => {
             </button> */}
           </Col>
           <Col xs={12} md={6} xl={6}>
-            <img src={headderImg} alt="Headder Img" />
+            <div id="photo">
+              <div id="photo-box"></div>
+            </div>
           </Col>
         </Row>
       </Container>
