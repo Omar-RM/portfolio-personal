@@ -11,8 +11,7 @@ export const Projects = () => {
       description:
         "A web application which displays some of the most popular video games, with the option to sort the games based on rating, genre, platform and relevance. ",
       imgUrl: gameHub,
-      buttonlLink:
-        "https://vercel.com/omar-ricos-projects/game-platform-project",
+      buttonlLink: "https://game-platform-project.vercel.app/",
     },
     {
       title: "Jack Sony Pictures",
