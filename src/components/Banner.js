@@ -8,13 +8,21 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my portfolio</span>
+          <Col xs={12} md={6} xl={6}>
+            <span className="tagline">Junior Software Developer</span>
             <h1>
-              {"Hi I'am Omar "}
-              <span className="wrap">Web developer</span>
+              <span className="wrap">Hi there, My name is Omar Rico</span>
             </h1>
-            <p>Lorent shdkas hasdjaasj hasjdajdh </p>
+            <h2>
+              {" "}
+              I am a self-taught Developer with 2 years of experience with a
+              passion for programming and a desire to contribute to meaningful
+              projects.
+            </h2>
+            <p className="mt-3">
+              I have proficeint experience in JavaScript, Java, PHP, REACT, SQL,
+              R and MySQL
+            </p>
             <button
               style={{ background: "none", border: "none" }}
               onClick={() => console.log("connect")}
@@ -23,7 +31,7 @@ export const Banner = () => {
               <ArrowRightCircle size={25} />
             </button>
           </Col>
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={6}>
             <img src={headderImg} alt="Headder Img" />
           </Col>
         </Row>
