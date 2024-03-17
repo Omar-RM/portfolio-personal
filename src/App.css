@@ -582,7 +582,8 @@ margin-left: 30px;
 
 /************ Footer Css ************/
 .footer {
-  border: solid 1px white;
+  /* border: solid 1px white; */
+  height: 300px;
   padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
