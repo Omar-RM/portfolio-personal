@@ -2,7 +2,6 @@ import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import jackGallery from "../assets/img/sony-gallery.png";
-import projImg3 from "../assets/img/project-img2.png";
 import gameHub from "../assets/img/game-hub.png";
 export const Projects = () => {
   const projects = [
